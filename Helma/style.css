@@ -1,0 +1,51 @@
+/* Style for To-Do List */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center; /* Mengatur konten agar berada di tengah secara horizontal */
+  align-items: center; /* Mengatur konten agar berada di tengah secara vertikal */
+  height: 100vh; /* Menetapkan tinggi untuk konten berada di tengah */
+}
+
+.container {
+  text-align: center; /* Untuk konten dalam container berada di tengah */
+}
+
+h2 {
+  color: #333;
+}
+
+form {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 8px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #4dff00c9;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #09b300fd;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+p {
+  color: #777;
+}
